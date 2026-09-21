@@ -1,0 +1,15 @@
+version: '3'
+services:
+  locker-challenge:
+    # Build menggunakan Dockerfile di folder ini (.)
+    build: . 
+    
+    # Nama container biar gampang dicari
+    container_name: locker_container_instance
+    
+    # Mapping Port (Kiri: Laptop, Kanan: Container)
+    ports:
+      - "27312:27312"
+    
+    # Kalau crash/laptop restart, dia nyala sendiri
+    restart: always

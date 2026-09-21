@@ -1,0 +1,38 @@
+# Required sections
+name: 'Locker'
+category: Forensic
+description: |-
+    Brian made a fatal mistake yesterday. He clicked on something he shouldn't have. 
+    Now, the fate of his data rests in your hands. Analyze the captured pcap and binary files, 
+    then answer the questions to retrieve the Flag.
+
+    https://drive.google.com/drive/folders/1N3A2ApuPpaEW7iD6HqUFJ2kSFbXhyQW4?usp=sharing
+
+    pass: c3Vrc2VzIGRhbiBzZWxhbWF0IGJlcmp1YW5n
+
+    Author: Arenaru
+
+##### TIDAK USAH DIGANTI
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 30
+    minimum: 100
+##### TIDAK USAH DIGANTI
+
+connection_info: nc 31.97.187.222 27312
+
+flags:
+    # A static case sensitive flag
+    - NCW{y4ng_b1s4_r3v3rs3_m4lw4r3ny4_d4p3t_100k}
+
+tags:
+    - easy
+
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: '0.1'

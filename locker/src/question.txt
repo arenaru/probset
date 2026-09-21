@@ -1,0 +1,15 @@
+What is the total number of packets captured in the network traffic? 
+Identify the IP address of the infected host. 
+What is the destination IP address and port number accessed by the victim? (ip:port)
+What is the hostname of the victim's machine?
+Identify the filename of the first file downloaded by the victim.
+What is the filename of the malicious binary?
+Provide the absolute path where the malicious file was located.
+At what exact timestamp was the malicious file executed? (Format: dd/mm/yyyy:hh:mm:ss)
+What is the SHA256 hash of the malicious file?
+According to the analysis report, how many security vendors flagged this file as malicious?
+Based on the behavioral analysis, what is the MITRE ATT&CK Technique ID associated with "Process Injection"?
+What specific technique did the malware utilize for Command and Control (C2)? (Sensitive Case)
+What is the unique Victim ID found in the ransom note?
+Identify the encryption key used by the ransomware.
+What is the deadline (in hours) before the ransom demand increases?
