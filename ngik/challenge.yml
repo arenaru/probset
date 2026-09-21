@@ -1,0 +1,34 @@
+name: "ngik"
+category: Forensic
+description: |-
+
+  A final-year student came to IT Support in a panic. He claimed he had just downloaded a free modified Discord Nitro app 
+  from an unofficial forum. However, shortly after installing the app, all his important documents 
+  and thesis files became unavailable and their extensions changed to .PETIR.
+
+  File: https://drive.google.com/drive/folders/1q6DtCyGoCapo7qYUmq2ph2YIJNbBAdIJ?usp=sharing
+
+  Password: c2VsYW1hdCBiZWpydWFuZyBzdWtzZXM=
+
+  author: arenaru
+
+##### DON'T CHANGE
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 25
+  minimum: 100
+##### DON'T CHANGE
+
+flags:
+  - PETIR{rev3ng_t1p1s_t1p1s}
+
+tags:
+  - medium
+
+files:
+
+state: hidden
+
+version: "0.1"
