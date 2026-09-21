@@ -1,0 +1,30 @@
+name: "8x8=6x4"
+category: Miscellaneous
+description: |-
+
+  u must look deeper
+
+  File: https://drive.google.com/drive/folders/1Ub9oGf-kANMXHTw5XQmpEhxbJlQ6kAa5?usp=sharing
+
+  author: arenaru
+
+##### DON'T CHANGE
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 25
+  minimum: 100
+##### DON'T CHANGE
+
+flags:
+  - PETIR{1nt1ny4_k4c4m4t4_m4m4_ud4hl4hhhhh}
+
+tags:
+  - easy
+
+files: 
+
+state: hidden
+
+version: "0.1"
